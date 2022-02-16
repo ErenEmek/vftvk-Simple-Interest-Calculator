@@ -17,10 +17,8 @@ function compute() {
 
 }
 
+function slide(){
+
 var rateval = document.getElementById("rate");
 document.getElementById("rate_val").innerHTML = rateval.value;
-
-rateval.oninput = function() {
-  document.getElementById("rate_val").innerHTML = this.value;
 }
-
